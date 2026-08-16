@@ -1,0 +1,2 @@
+import {describe,it,expect} from 'vitest';import {applyGate,pickWinner,stageGates} from './game.js';
+describe('crowd gates',()=>{it('applies multiply',()=>expect(applyGate(6,{op:'*',value:2})).toBe(12));it('never drops below one',()=>expect(applyGate(2,{op:'-',value:9})).toBe(1));it('compares crowds',()=>expect(pickWinner(9,8)).toBe('player'));it('makes two gates',()=>expect(stageGates(2)).toHaveLength(2))});
