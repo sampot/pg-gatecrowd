@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "rev": "c49aeda",
+  "files": [
+    "app.js",
+    "assets/crowd.png",
+    "functions.js",
+    "game.js",
+    "index.html",
+    "styles.css"
+  ]
+}
